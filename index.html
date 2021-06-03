@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <main>
+      <!--This is the navigation bar-->
+      <div class="nav">
+        <div class="burger">
+          <svg id="burger__icon">
+            <use></use>
+          </svg>
+        </div>
+        <div class="icons">
+          <svg class="search"></svg>
+          <svg class="user"></svg>
+        </div>
+      </div>
+      <!---this is the section with actual form-->
+      <div class="wrapper">
+        <div class="form__contaneir">
+          <div class="name">
+            <svg user-icon>
+              <use xlink:href="image/sprite.svg#icon-input-user"></use>
+            </svg>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="email">
+            <svg id="email-icon">
+              <use xlink:href="image/sprite.svg#icon-email"></use>
+            </svg>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="message">
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="form__info">
+          <div class="info__email">Our email:siphelele@gmail.com</div>
+          <div class="info__tel">Tel:031 300 0000</div>
+          <div class="form__socials">
+            <div class="form__socials--twitter">
+              <svg>
+                <use xlink:href="image/sprite.svg#icon-twitter"></use>
+              </svg>
+              <p>twitter</p>
+            </div>
+            <div class="form__socials--Instagram">
+              <svg>
+                <use xlink:href="image/sprite.svg#icon-instagram"></use>
+              </svg>
+              <p>Instagram</p>
+            </div>
+            <div class="form__socials--facebook">
+              <svg>
+                <use xlink:href="image/sprite.svg#icon-facebook"></use>
+              </svg>
+              <p>facebook</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
